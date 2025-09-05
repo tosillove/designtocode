@@ -1,0 +1,40 @@
+name: t_native_page
+description: A new custom flutter-webOS project
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.0
+  plover:
+    git:
+      url: git@github.com:flutterwidgets/widgets.git
+      ref: 0.6.23
+  compound_widgets:
+    path: ./compound_widgets
+  flutter_svg: ^2.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/compound_images/
+    - assets/compound_images/4k/
+    - assets/compound_images/applist/
+    - assets/compound_images/contentlist/
+    - assets/compound_images/contentshelf/
+    - assets/compound_images/herobanner/
+    - assets/compound_images/main/
+    - assets/compound_images/qcard/
+    - assets/compound_images/recent/
+    - assets/compound_images/reorderableedit/
+    - assets/compound_images/streaming/
+    - assets/generated_drawables/

@@ -1,0 +1,30 @@
+{
+    "id": "com.waau.custom_project",
+    "version": "1.0.0",
+    "vendor": "LG Electronics",
+    "type": "flutter",
+    "main": "/usr/palm/applications/com.waau.custom_project/",
+    "title": "Flutter-webOS custom app",
+    "trustLevel": "default",
+    "icon": "icon.png",
+    "iconColor": "#ffffff",
+    "largeIcon": "icon.png",
+    "handlesRelaunch": true,
+    "visible": true,
+    "defaultWindowType": "card",
+    "resolution": "3840x2160",
+    "locationHint": "west",
+    "noSplashOnLaunch": true,
+    "spinnerOnLaunch": false,
+    "transparent": true,
+    "uiRevision": 2,
+    "disableBackHistoryAPI": true,
+    "handleScreenRemoteKey": true,
+    "requiredPermissions": [
+        "applications",
+        "applications.launcher",
+        "applications.operation",
+        "settings",
+        "system"
+    ]
+}

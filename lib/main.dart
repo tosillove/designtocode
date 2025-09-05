@@ -6,8 +6,6 @@ import 'x_qcard_reorderable_page.dart';
 import 'x_recent_input.dart';
 import 'x_shelves_reorderable_page.dart';
 
-// TEST MESSAGE.....
-
 void main() {
   runApp(const MainApp());
 }
@@ -29,9 +27,6 @@ class MainApp extends StatelessWidget {
                 '/x_recent_input': (context) => const XRecentInput(),
                 '/x_shelves_reorderable_page': (context) => const XShelvesReorderablePage()
               },
-              print("hello");
-              print("hello2...");
-		print("hello3.....");
             ));
   }
 }

@@ -1,0 +1,52 @@
+name: compound_widgets
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+  flutter: ">=3.10.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.0
+  intl: any
+  plover:
+    git:
+      url: git@github.com:flutterwidgets/widgets.git
+      ref: 0.6.23
+  quiver: ^3.2.1
+  video_player: ^2.8.5
+  go_router: ^13.2.0
+  flutter_riverpod: ^2.3.1
+  equatable: ^2.0.6
+  html_unescape: ^2.0.0
+  collection: ^1.18.0
+  analyzer: ^6.4.1
+
+dev_dependencies:
+  args: ^2.4.2
+  flutter_lints: ^4.0.0
+  flutter_localizations:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  mocktail: ^1.0.3
+  path: ^1.8.3
+  network_image_mock: ^2.1.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/compound_images/
+    - assets/compound_images/4k/
+    - assets/compound_images/applist/
+    - assets/compound_images/contentlist/
+    - assets/compound_images/contentshelf/
+    - assets/compound_images/herobanner/
+    - assets/compound_images/main/
+    - assets/compound_images/qcard/
+    - assets/compound_images/recent/
+    - assets/compound_images/streaming/
